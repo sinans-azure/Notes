@@ -68,6 +68,7 @@ CIDR is an IP addressing method that improves efficiency in allocating and routi
 Classful addressing wastes IP addresses:
 
 Class | IPs Available | Hosts | Example Wastage
+--- | --- | --- | ---
 A | 2²⁴ | 2²⁴ - 2 | Too large for small orgs
 B | 2¹⁶ | 2¹⁶ - 2 | Wastes 49,150 hosts for 214 needed
 C | 2⁸ | 2⁸ - 2 | Small networks only
