@@ -51,3 +51,14 @@ User Browser -> DNS Resolution -> Azure Public IP -> Azure Load Balancer / Appli
 - [ ] Create a VNet with 10.0.0.0/16 and 2 subnets with 10.0.1.0/24 (public) and 10.0.2.0/24 (private)
 - [ ] Create 1 VM in each subnet and assign a public IP to the VM in the public subnet
 - [ ] Create a NAT Gateway and associate it with the private subnet
+
+1. Create a Resource Group
+2. Create a VNet with 2 subnets
+3. Create 1 VM in each subnet and assign a public IP to the VM in the public subnet
+4. Create a NAT Gateway and associate it with the private subnet, with a public IP address
+5. Create a NSG and associate it with the private subnet, allowing only outbound traffic to the internet (80)
+6. Create a NSG and associate it with the public subnet, allowing inbound traffic from the internet (80) and outbound traffic to the internet (80)
+7. Create a load balancer and associate it with the private vm, with a public IP address
+8. Create a NSG and associate it with the load balancer, allowing inbound traffic from the internet (80)
+9. Create a NSG and associate it with the private vm, allowing inbound traffic from the load balancer (80)
+10. Expose the private vm to the internet through the load balancer and test the connectivity.
