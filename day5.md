@@ -4,42 +4,50 @@
 
 internet - igw - vpc - routetable - subnet - VM
 
-- Internet Assigned Numbers Authority (IANA)
+- **Internet Assigned Numbers Authority (IANA)**
   - primary authority responsible for assigning and maintaining official protocol port numbers.
-- Internet Service Provider (ISP)
+- **Internet Service Provider (ISP)**
   - a company that provides individuals and organizations access to the internet and related services.
-- DHCP (Dynamic Host Configuration Protocol)
+- **DHCP (Dynamic Host Configuration Protocol)**
   - a network management protocol used to automate the process of configuring devices on IP networks, allowing them to use network services such as DNS, NTP, and any communication protocol based on UDP or TCP.
-- CIDR (Classless Inter-Domain Routing)
+- **CIDR (Classless Inter-Domain Routing)**
   - a method for allocating IP addresses and routing Internet Protocol packets.
-- NAT (Network Address Translation)
+- **NAT (Network Address Translation)**
   - a method of remapping one IP address space into another by modifying network address information in the IP header of packets while they are in transit across a traffic routing device.
-- NAT Gateway
+- **NAT Gateway**
   - a service that enables instances in a private subnet to connect to the internet or other AWS services, but prevents the internet from initiating connections with those instances.
 
 ## Azure Networking Concepts
 
-Internet - public ip - vnet - routetable - subnet - VM
+Internet - public ip - vnet - routetable - subnet - VM (me)
 
-User Browser -> DNS Resolution -> Azure Public IP -> Azure Load Balancer / Application Gateway / Firewall -> NSG Rules -> VNet Routing -> VM NIC -> OS Firewall -> Application
+Internet - public ip - Azure SDN - private ip - NIC - VM (sir)
 
-- Resource Group
+User Browser -> DNS Resolution -> Azure Public IP -> Azure Load Balancer / Application Gateway / Firewall -> NSG Rules -> VNet Routing -> VM NIC -> OS Firewall -> Application (gpt)
+
+- **Resource Group**
   - a container that holds related resources for an Azure solution.
   - logical separation of the resources.
-- Virtual Network (VNet)
+- **Virtual Network (VNet)**
   - a representation of your own network in the cloud.
   - where you manage your network resources, such as subnets, route tables, and network security groups.
-- Subnet
+- **Subnet**
   - a range of IP addresses in your VNet.
   - used to divide the VNet into smaller, manageable sections.
-- Network Security Group (NSG)
+- **Network Security Group (NSG)**
   - a security rule that controls inbound and outbound traffic to network interfaces, VMs, and subnets.
-- Public IP Address
+- **Public IP Address**
   - an IP address that can be accessed from the internet.
-- NAT Gateway
+- **NAT Gateway**
   - a service that enables instances in a private subnet to connect to the internet or other Azure services, but prevents the internet from initiating connections with those instances.
-- Network Interface
+- **Network Interface**
   - a virtual network interface card (NIC) that connects a VM to a VNet.
-- UDR (User Defined Route)
+- **UDR (User Defined Route)**
   - a custom route that you can create to control the routing of traffic in your VNet.
   
+## Todo
+
+- [ ] Create a Resource Group
+- [ ] Create a VNet with 10.0.0.0/16 and 2 subnets with 10.0.1.0/24 (public) and 10.0.2.0/24 (private)
+- [ ] Create 1 VM in each subnet and assign a public IP to the VM in the public subnet
+- [ ] Create a NAT Gateway and associate it with the private subnet
