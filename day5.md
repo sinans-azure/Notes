@@ -62,3 +62,5 @@ User Browser -> DNS Resolution -> Azure Public IP -> Azure Load Balancer / Appli
 8. Create a NSG and associate it with the load balancer, allowing inbound traffic from the internet (80)
 9. Create a NSG and associate it with the private vm, allowing inbound traffic from the load balancer (80)
 10. Expose the private vm to the internet through the load balancer and test the connectivity.
+
+![resources](sinan-rg.png)
