@@ -52,6 +52,8 @@ User Browser -> DNS Resolution -> Azure Public IP -> Azure Load Balancer / Appli
 - [ ] Create 1 VM in each subnet and assign a public IP to the VM in the public subnet
 - [ ] Create a NAT Gateway and associate it with the private subnet
 
+---
+
 1. Create a Resource Group
 2. Create a VNet with 2 subnets
 3. Create 1 VM in each subnet and assign a public IP to the VM in the public subnet
@@ -64,3 +66,5 @@ User Browser -> DNS Resolution -> Azure Public IP -> Azure Load Balancer / Appli
 10. Expose the private vm to the internet through the load balancer and test the connectivity.
 
 ![resources](sinan-rg.png)
+
+Then created terraform files for the above resources and applied them to create the infrastructure.
