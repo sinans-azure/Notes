@@ -68,3 +68,4 @@ User Browser -> DNS Resolution -> Azure Public IP -> Azure Load Balancer / Appli
 ![resources](sinan-rg.png)
 
 Then created terraform files for the above resources and applied them to create the infrastructure.
+*Extended to day 6
