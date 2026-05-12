@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36 Edg/145.0.0.0">
   <diagram name="Page-1" id="oWzUmzkMQV-8_VW1i5PK">
-    <mxGraphModel dx="1514" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="2187" dy="1342" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -139,7 +139,7 @@
         <mxCell id="pxi-Xg9bMkufrGU8Prr4-47" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Bastions.svg;" value="Bastion" vertex="1">
           <mxGeometry height="58" width="49.47" x="58" y="346" as="geometry" />
         </mxCell>
-        <mxCell id="pxi-Xg9bMkufrGU8Prr4-48" edge="1" parent="1" source="pxi-Xg9bMkufrGU8Prr4-47" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" target="pxi-Xg9bMkufrGU8Prr4-1" value="">
+        <mxCell id="pxi-Xg9bMkufrGU8Prr4-48" edge="1" parent="1" source="pxi-Xg9bMkufrGU8Prr4-47" style="endArrow=classic;startArrow=none;html=1;rounded=0;startFill=0;" target="pxi-Xg9bMkufrGU8Prr4-1" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="-160" y="490" as="sourcePoint" />
             <mxPoint x="-110" y="440" as="targetPoint" />
@@ -150,15 +150,6 @@
         </mxCell>
         <mxCell id="pxi-Xg9bMkufrGU8Prr4-14" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/networking/Public_IP_Addresses.svg;" value="Public IP" vertex="1">
           <mxGeometry height="52" width="65" x="200.5" y="308" as="geometry" />
-        </mxCell>
-        <mxCell id="pxi-Xg9bMkufrGU8Prr4-50" edge="1" parent="1" source="pxi-Xg9bMkufrGU8Prr4-11" style="endArrow=classic;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;startArrow=classic;startFill=1;endFill=1;" target="pxi-Xg9bMkufrGU8Prr4-1" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <Array as="points">
-              <mxPoint x="260" y="454" />
-            </Array>
-            <mxPoint x="-210" y="780" as="sourcePoint" />
-            <mxPoint x="-160" y="730" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="pxi-Xg9bMkufrGU8Prr4-51" edge="1" parent="1" source="pxi-Xg9bMkufrGU8Prr4-5" style="endArrow=classic;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;startArrow=classic;startFill=1;endFill=1;" target="pxi-Xg9bMkufrGU8Prr4-11" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
